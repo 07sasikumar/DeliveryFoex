@@ -20,7 +20,7 @@ public class Loginpage2 {
 		email.sendKeys("Indianpost@mailinator.com");
 
 		// Declare an initial password to start the loop
-		int passCount = 123456770;
+		int passCount = 123456771;
 
 		// While loop to attempt login with incrementing passwords
 		while (passCount <= 123456791) {
@@ -50,6 +50,6 @@ public class Loginpage2 {
 		}
 
 		// Close the browser
-		driver.quit();
+	//	driver.quit();
 	}
 }
