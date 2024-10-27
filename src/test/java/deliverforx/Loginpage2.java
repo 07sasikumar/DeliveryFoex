@@ -50,6 +50,7 @@ public class Loginpage2 {
 		}
 
 		// Close the browser
-	//	driver.quit();
+	driver.quit();
+		//test1
 	}
 }
